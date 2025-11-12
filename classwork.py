@@ -114,3 +114,45 @@ if "expenisive" not in txt:
 
     txt = "\ xmango\ xtree\ xworld\ xhenry\ xlove\ "
     print(txt)
+
+
+    motors = ["Lexus", "Tayota", "Camry", "Benz"]
+    motors[0]= 'GLK'
+    motors[2]= 'Lexus'
+    motors.append('Jeep')
+    motors.sort(reverse=True)
+
+
+    motors = []
+    motors.append('LEZUX')
+    motors.append('CAMRY')
+    motors.append('GLK')
+    motors.append('GLK')
+    motors.append('TOYOTA')
+    motors.append('BUGATTI')
+    motors.append('BMW')
+    motors.append('HYUNDAI')
+    motors.append('NISSAN')
+    motors.append('CHEVROLET')
+    motors.append('FERRI')
+    motors.append('PORSCHE')
+    motors.append('FORD')
+    motors.append('KIA')
+    motors.append('GMC')
+    print(motors)
+
+
+    friuts = ["apple", "apple", "banna", "cherry"]
+    friuts.pop(3)
+    friuts.remove('apple')
+    print(friuts)
+
+
+    friuts = ["apple", "orange", "banna", "cherry"]
+    for fruit in range (len(friuts)):
+          print(friuts[fruit])
+
+
+    fruit = ["apple", "orange", "banna", "cherry"]
+    myfriuts = friuts[2:3]
+    print(fruit)
