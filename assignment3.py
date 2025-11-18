@@ -22,8 +22,8 @@ username = "Promise"
 password = "12345"
 
 for attempt in range(3):
-    user = input("Enter username: ")
-    pwd = input("Enter password: ")
+    user = input("input username: ")
+    pwd = input("input password: ")
 
     if user == username and pwd == password:
         print("Welcome back")
